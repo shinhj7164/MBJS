@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegiActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_id_regi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="아이디"/>
+
+    <EditText
+        android:id="@+id/et_pw_regi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="비번"/>
+
+
+    <EditText
+        android:id="@+id/et_pwpw_regi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="비번확인"/>
+
+    <EditText
+        android:id="@+id/et_age_regi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="나이"/>
+
+    <EditText
+        android:id="@+id/et_info1_regi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="정보1"/>
+
+    <EditText
+        android:id="@+id/et_info2_regi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="정보2"/>
+
+    <EditText
+        android:id="@+id/et_info3_regi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="정보3"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="가입"/>
+
+
+</LinearLayout>
